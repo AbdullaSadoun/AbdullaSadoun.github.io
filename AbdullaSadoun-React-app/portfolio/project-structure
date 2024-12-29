@@ -1,0 +1,21 @@
+portfolio/
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── sections/
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Experience.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   ├── Education.jsx
+│   │   │   ├── Services.jsx
+│   │   │   └── Contact.jsx
+│   │   └── shared/
+│   │       ├── Button.jsx
+│   │       └── Container.jsx
+│   ├── styles/
+│   │   └── globals.css
+│   ├── App.jsx
+│   └── main.jsx
+└── tailwind.config.js 

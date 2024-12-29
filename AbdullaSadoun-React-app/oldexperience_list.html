@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Experience List</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Force the hard-refresh for everyone-->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <!-- Add this CSS in the head section -->
+  <style>
+    .search-dark {
+      background-color: #444 !important;
+      color: white !important;
+      border: 1px solid #555 !important;
+    }
+    
+    .search-dark::placeholder {
+      color: #aaa !important;
+    }
+    
+    .search-dark:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255,255,255,.25) !important;
+    }
+
+    .nav-btn {
+      padding: 8px 16px;
+      background: #444;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .nav-btn:hover {
+      background: #555;
+      color: white;
+      text-decoration: none;
+    }
+
+    .experience-header {
+      padding: 1rem 0;
+      background: #2d2d2d;
+    }
+
+    .experience-header .container {
+      gap: 1rem; /* Add this line to increase the space between elements */
+    }
+
+    .experience-header .container .d-flex.gap-3 {
+      gap: 1rem; /* Increase the space between the Home and Theme buttons */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Search Bar -->
+  <header class="experience-header">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-3 align-items-center">
+        <a href="index.html" class="nav-btn">
+          <i class="bx bx-home"></i> Home
+        </a>
+        <button id="darkModeToggle" class="nav-btn">
+          <i class="bx bx-moon"></i> Theme
+        </button>
+      </div>
+      <input type="text" id="experienceSearch" class="form-control search-dark" placeholder="Search Experience">
+    </div>
+  </header>
+
+  <!-- Experience Section -->
+  <section id="full-experience" class="resume">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Full Experience</h2>
+        <p>Explore my complete set of projects and experience in various fields.</p>
+      </div>
+
+      <div class="row experience-grid">
+        
+        <!-- Milton AI - LM -->
+        <div class="resume-item">
+          <h4 class="resume-title">Milton AI - Lockheed Martin</h4>
+          <p>Created an AI product to Optimize Lockheed Martin's Analysis of their training needs.</p>
+          <ul>
+            <li>Architected and deployed a scalable microservices ecosystem using Docker containers for ML model
+              orchestration, separating training, inference, and data processing components, improving system
+              maintainability and scalability.</li>
+            <li>Designed and implemented cloud-native ML model architecture and deployment infrastructure, enabling
+              independent scaling and management of each model while maintaining integration with the main Django
+              application and leveraging AWS for model training.</li>
+            <li>Developed an NLP-powered document analysis system using transformer models to extract KSAs
+              (Knowledge, Skills, Abilities) from technical documentation, reducing manual analysis time by 80%.</li>
+            <li>Collaborated with cross-functional teams to implement data preprocessing and model training pipelines,
+              ensuring high-quality training data for improved model accuracy.</li>
+            <li>Designed and implemented load balancers and REST APIs gateways for inter-service communication between
+              services and models, documenting the architecture, monitoring and logging for real-time analytics.</li>
+          </ul>
+        </div>
+
+        <!-- CPU Emulator Project -->
+        <div class="resume-item">
+        <h4 class="resume-title">CPU Emulator -XM23p</h4>
+          <p>Developed an emulator for the XM23p CPU, successfully emulating 300+ assembly codes based on Motorola's Harvard architecture.</p>
+          <ul>
+            <li>Gained expertise in Computer Organization, Assembly Language, and CPU Architecture.</li>
+            <li>Implemented a 5-stage pipeline for the CPU.</li>
+            <li>Developed a GUI for the emulator using JavaFX.</li>
+            <li>Implemented advanced SDLC practices, including unit and integration testing.</li>
+            <li>Created automated testing pipelines with GitHub Actions for early issue detection.</li>
+            <li>Authored comprehensive documentation on emulator design, testing procedures, and compliance.</li>
+          </ul>
+        </div>
+
+        <!-- Self Navigating Robot Project -->
+        <div class="resume-item">
+          <h4 class="resume-title">Self Navigating Robot - lead</h4>
+          <p>Led the development of a self-navigating robot using ROS2 and NAV2, achieving a 60% speed advantage and 84%
+            course completion rate.</p>
+          <ul>
+            <li>Served as Scrum Master, applying Agile methodologies for collaboration and task prioritization.</li>
+            <li>Enhanced Linux proficiency in a development environment with publisher-subscriber architecture in a Real Time
+              Operating System.</li>
+            <li>Conducted cost and risk analysis to inform project decisions.</li>
+            <li>Developed a thorough test plan, documenting system performance and validation..</li>
+            <li>Utilized Rviz and Gazebo for simulation, and applied Python for automation and control.</li>
+          </ul>
+        </div>
+
+        <!-- Aviation Delay Analysis -->
+        <div class="resume-item">
+          <h4 class="resume-title">Delay in Aviation Analysis - Why are airlines always late? </h4>
+          <p>Analyzed 100,000+ flight delays using Python, Matplotlib, and Pandas to develop preventive measures.</p>
+          <ul>
+            <li>Conducted cost and risk analysis to enhance flight scheduling and operations.</li>
+            <li>Demonstrated adaptability and critical thinking in complex data challenges.</li>
+            <li>Gained experience with cloud platforms for potential future deployment of analysis tools.</li>
+            <li>Applied advanced programming skills to process and analyze large datasets effectively.</li>
+          </ul>
+        </div>
+
+        <!-- Systems Project (EV Sim) -->
+        <div class="resume-item">
+          <h4 class="resume-title">Autonomous Self Driving Vehicles Simulator</h4>
+          <p>Developed a self-driving vehicle simulator focusing on delivery performance under varying parameters.</p>
+          <ul>
+            <li>Collaborated in an Agile environment, facilitating iterative development and task prioritization.</li>
+            <li>Conducted cost and risk analyses for optimal simulator outcomes.</li>
+            <li>Demonstrated strong problem-solving and technical writing skills for reporting results.</li>
+            <li>Utilized Git/GitHub for version control and managed changes effectively.</li>
+            <li>Designed testing environments to evaluate performance and integrated a database for simulation data
+              management.</li>            
+          </ul>
+        </div>
+
+        <!-- Another Project -->
+        <div class="resume-item">
+          <h4 class="resume-title">Experience 7</h4>
+          <p>Worked as a software developer intern at a startup, developing a web application for managing customer data.</p>
+          <ul>
+            <li>Developed a web application using ReactJS and NodeJS.</li>
+            <li>Implemented a RESTful API for the application.</li>
+            <li>Worked with a team of 5 developers to deliver the project on time.</li>
+          </ul>
+        </div>
+
+        <!-- Another Project -->
+        <div class="resume-item">
+          <h4 class="resume-title">Experience 8</h4>
+          <p>Worked as a software developer intern at a startup, developing a web application for managing customer data.</p>
+          <ul>
+            <li>Developed a web application using ReactJS and NodeJS.</li>
+            <li>Implemented a RESTful API for the application.</li>
+            <li>Worked with a team of 5 developers to deliver the project on time.</li>
+          </ul>
+        </div>
+
+        <!-- Another Project -->
+        <div class="resume-item">
+          <h4 class="resume-title">Experience 9</h4>
+          <p>Worked as a software developer intern at a startup, developing a web application for managing customer data.</p>
+          <ul>
+            <li>Developed a web application using ReactJS and NodeJS.</li>
+            <li>Implemented a RESTful API for the application.</li>
+            <li>Worked with a team of 5 developers to deliver the project on time.</li>
+          </ul>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Abdulla Sadoun</h3>
+      <p>Turning complex challenges into elegant solutions, one project at a time.</p>
+
+      <!-- Contact Card QR code image -->
+      <div class="contact-card">
+        <a href="assets/contact-card.vcf" download>
+          <img src="assets/img/qr-code.png" alt="Contact QR Code">
+        </a>
+        <p>Add Contact</p>
+      </div>
+
+      <!-- Footer Social Links -->
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/abdullasadoun/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.github.com/AbdullaSadoun" class="linkedin"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Responsive Search Script -->
+  <script>
+    document.getElementById('experienceSearch').addEventListener('input', function () {
+      const searchTerm = this.value.toLowerCase()
+      document.querySelectorAll('.ex      ce-item').forEach(item => {
+        const text = item.textContent.toLowerCase()
+        item.style.display = text.includes(searchTerm) ? '' : 'none'
+      })
+    })
+  </script>
+
+</body>
+
+</html>

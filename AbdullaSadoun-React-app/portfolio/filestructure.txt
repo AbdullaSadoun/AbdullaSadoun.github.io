@@ -1,0 +1,39 @@
+|-- .gitignore
+|-- README.md
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.js
+|-- project-structure
+|-- public
+    |-- vite.svg
+|-- src
+    |-- App.jsx
+    |-- assets
+        |-- react.svg
+    |-- components
+        |-- 3d
+            |-- ParticleBrain.jsx
+        |-- layout
+            |-- Footer.jsx
+            |-- Navbar.jsx
+            |-- ProjectLayout.jsx
+        |-- sections
+            |-- Contact.jsx
+            |-- Education.jsx
+            |-- Experience.jsx
+            |-- Hero.jsx
+            |-- ProjectDetail.jsx
+            |-- Projects.jsx
+            |-- Services.jsx
+        |-- shared
+            |-- Button.jsx
+            |-- ImageGallery.jsx
+    |-- data
+        |-- projects.js
+    |-- eslint.config.js
+    |-- main.jsx
+    |-- styles
+        |-- globals.css
+|-- tailwind.config.js
+|-- vite.config.js

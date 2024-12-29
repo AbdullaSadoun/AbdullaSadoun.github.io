@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Abdulla Sadoun
+N:Sadoun;Abdulla;;;
+TEL;TYPE=WORK,VOICE:+1 902 266 9696
+TEL;TYPE=ALT,VOICE:+974 3367 0610
+EMAIL;TYPE=PREF,INTERNET:abdulla@asadoun.com
+EMAIL;TYPE=WORK,INTERNET:abdulla.sadoun@dal.ca
+ADR;TYPE=WORK:;;;Halifax;NS;B3J2G9;Canada
+URL:http://www.asadoun.com
+END:VCARD
